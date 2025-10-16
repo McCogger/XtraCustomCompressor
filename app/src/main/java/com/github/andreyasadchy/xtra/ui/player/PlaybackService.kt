@@ -585,7 +585,7 @@ class PlaybackService : MediaSessionService() {
                             getMbcBandByChannelIndex(channelIdx, bandIdx).apply {
                                 attackTime = 0f
                                 releaseTime = 0.25f
-                                ratio = 1.6f
+                                ratio = 12f
                                 threshold = -50f
                                 kneeWidth = 40f
                                 preGain = 0f
